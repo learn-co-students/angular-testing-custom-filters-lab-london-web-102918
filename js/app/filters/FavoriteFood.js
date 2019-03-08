@@ -1,7 +1,7 @@
 function FavoriteFood() {
-	return function (items, food) {
-		return items.filter(function (item) {
-			return item.favoriteFood === food;
+	return function (people, food) {
+		return people.filter(function (person) {
+			return person.favoriteFood === food;
 		});
 	};
 }

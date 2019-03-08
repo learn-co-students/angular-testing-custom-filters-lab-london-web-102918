@@ -1,6 +1,6 @@
 function removeAllVowels() {
-	return function (str) {
-		return str.replace(/[aeiou]/gi, '');
+	return string => {
+		return string.replace(/[aeiou]/gi, '');
 	};
 }
 
